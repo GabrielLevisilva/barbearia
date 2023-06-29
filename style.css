@@ -18,8 +18,11 @@
     }
     /* HEADER */
     header{
-    background-color: lightblue;
+    color: white;
     padding: 20px 5px;
+    position: absolute;
+    width: 97%;
+    
     }
     header > nav{
         display: none;
@@ -31,8 +34,11 @@
         height: 40%;
         width: 100%;
         text-align: center;
-        padding-top: 20px;
+        padding-top: 70px;
         padding-bottom: 20px;
+        background-image: url(./img/barber-650.jpg);
+        background-size: cover;
+        background-position: 50% 50%;
     }
     #bloco1 > h1{
         margin: 0px 5px 0px 5px;
@@ -45,7 +51,7 @@
     }
     #bloco1 > p{
         color: white;
-        font-size: 24px;
+        font-size: 22px;
     }
     /* BLOCO 2 */
     #bloco2{
@@ -69,9 +75,11 @@
     }
     /* BLOCO 3 */
     #bloco3{
-        background-color: rgb(133, 87, 70);
+
         text-align: center;
         color: white;
+        background-image: url(./img/barber2-650.jpg);
+        background-position: 50%;
     }
     #bloco3 > h1{
         padding-top: 20px;
@@ -145,6 +153,11 @@
         text-align: center;
         background-color: lightseagreen;
         color: white;
+        background-image: url(./img/barber3-650.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+
     }
     #bloco5 > h1{
         padding: 10px;
@@ -187,5 +200,13 @@
     }
     footer > p > a:active{
         color: rgb(156, 156, 250);
+    }
+    /* BOTÕES */
+    .btn:hover{
+        cursor: pointer;
+        color: rgb(87, 87, 87);
+    }
+    .btn:active{
+        color: rgb(154, 198, 255);
     }
 }
