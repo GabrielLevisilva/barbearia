@@ -24,7 +24,6 @@
     position: absolute;
     width: 97%;
     
-    
     }
     header > nav{
         display: none;
@@ -112,7 +111,6 @@
         font-family: sans-serif;
     }
     #bloco3 > button{
-        border: none;
         padding: 20px;
         margin-top: 20px;
         margin-bottom: 30px;
@@ -120,8 +118,14 @@
         width: 70%;
         border-style: solid;
         color: white;
+        border-color: white;
         background: none;
         border-width: 1px;
+        cursor: pointer;
+    }
+    #bloco3 > button:active{
+        background-color: rgba(0, 0, 0, 0.699);
+        border-color: black;
     }
     /* BLOCO 4 */
     #bloco4{
@@ -147,7 +151,6 @@
         margin: 10px;
     }
     #bloco4 > button{
-        border: none;
         padding: 20px;
         margin-top: 20px;
         margin-bottom: 30px;
@@ -157,6 +160,13 @@
         color: rgba(0, 0, 0, 0.473);
         background: none;
         border-width: 1px;
+        border-color:  rgba(0, 0, 0, 0.473);
+        cursor: pointer;
+    }
+    #bloco4 > button:active{
+        background-color: rgba(0, 0, 0, 0.699);
+        border-color: black;
+        color: white;
     }
     /* BLOCO 5 */
     #bloco5{
@@ -188,7 +198,6 @@
         padding: 0px 5px 0px 5px;
     }
     #bloco5 > button{
-        border: none;
         padding: 20px;
         margin-top: 20px;
         margin-bottom: 30px;
@@ -198,7 +207,14 @@
         color: white;
         background: none;
         border-width: 1px;
+        border-color: white;
+        cursor: pointer;
     }
+    #bloco5 > button:active{
+        background-color: rgba(0, 0, 0, 0.699);
+        border-color: black;
+    }
+    
     footer{
         text-align: center;
         background-color: rgb(255, 255, 255);
