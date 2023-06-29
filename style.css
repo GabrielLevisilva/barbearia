@@ -1,0 +1,191 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@media (max-width: 375px) {
+    
+
+    body{
+    width: 96vw;
+    
+    }
+    h1{
+        font-family: 'PT Serif', serif;
+        font-weight: normal;
+    }
+    p{
+        font-family: sans-serif;
+    }
+    /* HEADER */
+    header{
+    background-color: lightblue;
+    padding: 20px 5px;
+    }
+    header > nav{
+        display: none;
+        
+    }
+    /* BLOCO 1 */
+    #bloco1{
+        background-color: lightcoral;
+        height: 40%;
+        width: 100%;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #bloco1 > h1{
+        margin: 0px 5px 0px 5px;
+        border-top-style: solid ;
+        border-bottom-style: solid ;
+        color: white;
+        padding: 10px 0px 10px 0px;
+        font-size: 45px;
+        
+    }
+    #bloco1 > p{
+        color: white;
+        font-size: 24px;
+    }
+    /* BLOCO 2 */
+    #bloco2{
+        text-align: center;
+        width: 100%;
+    }
+    #bloco2 > h1{
+        padding: 20px;
+        font-weight: normal;
+    }
+    #bloco2 > p{
+        color: rgba(0, 0, 0, 0.514);
+        font-size: 19px;
+        line-height: 30px;
+        width: 100%;
+        font-family: sans-serif;
+    }
+    img{
+        margin-top: 20px;
+    width: 50%;
+    }
+    /* BLOCO 3 */
+    #bloco3{
+        background-color: rgb(133, 87, 70);
+        text-align: center;
+        color: white;
+    }
+    #bloco3 > h1{
+        padding-top: 20px;
+    }
+    #bloco3 > section{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .parts > h2{
+        font-family: 'PT Serif', serif;
+        padding: 20px;
+        font-weight: normal;
+        font-size: 31px;
+    }
+    .parts > p{
+        font-size: 19px;
+        line-height: 30px;
+        width: 100%;
+        color: rgba(255, 255, 255, 0.678);
+        font-family: sans-serif;
+    }
+    #bloco3 > button{
+        border: none;
+        padding: 20px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-size: 1.5em;
+        width: 70%;
+        border-style: solid;
+        color: white;
+        background: none;
+        border-width: 1px;
+    }
+    /* BLOCO 4 */
+    #bloco4{
+        text-align: center;
+    }
+    #bloco4 > p{
+        text-align: center;
+        color: rgba(0, 0, 0, 0.315);
+        font-size: 19px;
+        line-height: 30px;
+        width: 100%;
+        font-family: sans-serif;
+    }
+    #bloco4 > section{
+        text-align: start;
+        font-family: sans-serif;
+        color: rgba(0, 0, 0, 0.658);
+        border-bottom-style: solid ;
+        border-bottom-width: 1px;
+        padding-bottom: 10px ;
+        border-bottom-color: rgba(0, 0, 0, 0.226) ;
+        margin: 10px;
+    }
+    #bloco4 > button{
+        border: none;
+        padding: 20px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-size: 1.5em;
+        width: 70%;
+        border-style: solid;
+        color: rgba(0, 0, 0, 0.473);
+        background: none;
+        border-width: 1px;
+    }
+    /* BLOCO 5 */
+    #bloco5{
+        text-align: center;
+        background-color: lightseagreen;
+        color: white;
+    }
+    #bloco5 > h1{
+        padding: 10px;
+    }
+    #bloco5 > p{
+        text-align: center;
+        color: rgba(255, 255, 255, 0.637);
+        font-size: 18px;
+        line-height: 30px;
+        width: 100%;
+        font-family: sans-serif;
+        padding: 10px 0px 10px 0px;
+    }
+    #bloco5 > h2{
+        font-family: sans-serif;
+        font-size: 2em;
+        padding: 0px 5px 0px 5px;
+    }
+    #bloco5 > button{
+        border: none;
+        padding: 20px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-size: 1.5em;
+        width: 70%;
+        border-style: solid;
+        color: white;
+        background: none;
+        border-width: 1px;
+    }
+    footer{
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        color: rgb(94, 94, 94);
+        padding: 10px;
+    }
+    footer > p > a{
+        text-decoration: none;
+        color: rgb(91, 91, 238);
+    }
+    footer > p > a:active{
+        color: rgb(156, 156, 250);
+    }
+}
