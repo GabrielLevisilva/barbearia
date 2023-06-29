@@ -7,6 +7,8 @@
 
     body{
         /* width: 100vw; */
+        
+    }
     }
     h1{
         font-family: 'PT Serif', serif;
@@ -20,7 +22,8 @@
     color: white;
     padding: 20px 5px;
     position: absolute;
-    width: 100%;
+    width: 97%;
+    
     
     }
     header > nav{
@@ -29,6 +32,7 @@
     }
     /* BLOCO 1 */
     #bloco1{
+        
         width: 100vw;
         background-color: lightcoral;
         height: 40%;
@@ -57,7 +61,7 @@
     }
     /* BLOCO 2 */
     #bloco2{
-        width: 100vw;
+        
         text-align: center;
         width: 100%;
     }
@@ -78,7 +82,7 @@
     }
     /* BLOCO 3 */
     #bloco3{
-        width: 100vw;
+        
         margin-top: 70px;
         margin-bottom: 70px;
         text-align: center;
@@ -121,7 +125,7 @@
     }
     /* BLOCO 4 */
     #bloco4{
-        width: 100vw;
+        
         text-align: center;
     }
     #bloco4 > p{
@@ -156,7 +160,6 @@
     }
     /* BLOCO 5 */
     #bloco5{
-        width: 100vw;
         margin: 70px 0px 0px 0px;
         text-align: center;
         background-color: lightseagreen;
