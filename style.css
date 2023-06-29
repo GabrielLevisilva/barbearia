@@ -206,10 +206,6 @@
         color: rgb(156, 156, 250);
     }
     /* BOTÕES */
-    .btn:hover{
-        cursor: pointer;
-        color: rgb(87, 87, 87);
-    }
     .btn:active{
         color: rgb(154, 198, 255);
     }
