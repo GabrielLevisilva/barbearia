@@ -5,7 +5,7 @@
 @media (max-width: 375px) {
     
 
-    body{
+    main{
     width: 100vw;
     
     }
@@ -35,15 +35,16 @@
         width: 100%;
         text-align: center;
         padding-top: 70px;
-        padding-bottom: 20px;
+        padding-bottom: 78px;
         background-image: url(./img/barber-650.jpg);
         background-size: cover;
         background-position: 50% 50%;
     }
     #bloco1 > h1{
-        /* margin: 0px 5px 0px 5px; */
+        margin: 0px 5px 0px 5px;
         border-top-style: solid ;
         border-bottom-style: solid ;
+        border-width: 1px;
         color: white;
         padding: 10px 0px 10px 0px;
         font-size: 45px;
@@ -51,6 +52,7 @@
     }
     #bloco1 > p{
         color: white;
+        padding-top: 10px;
         font-size: 22px;
     }
     /* BLOCO 2 */
@@ -59,7 +61,7 @@
         width: 100%;
     }
     #bloco2 > h1{
-        padding: 20px;
+        padding: 70px 20px 20px 20px;
         font-weight: normal;
     }
     #bloco2 > p{
@@ -75,7 +77,8 @@
     }
     /* BLOCO 3 */
     #bloco3{
-
+        margin-top: 70px;
+        margin-bottom: 70px;
         text-align: center;
         color: white;
         background-image: url(./img/barber2-650.jpg);
@@ -150,6 +153,7 @@
     }
     /* BLOCO 5 */
     #bloco5{
+        margin: 70px 0px 0px 0px;
         text-align: center;
         background-color: lightseagreen;
         color: white;
